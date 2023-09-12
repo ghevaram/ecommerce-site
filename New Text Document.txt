@@ -1,0 +1,12 @@
+@media screen and (max-width: 960px) { 
+    #columns figure { width: 24%; }
+  }
+  @media screen and (max-width: 767px) {
+    #columns figure { width:32%;}
+  }
+  @media screen and (max-width: 600px) {
+    #columns figure { width: 49%;}
+  }
+  @media screen and (max-width: 500px) {
+    #columns figure { width: 100%;}
+  }

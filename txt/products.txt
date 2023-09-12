@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>1© Store - All Products</title>
+	<link rel="stylesheet" href="products.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav">
+			<img src="./logo.png" class="brand-logo" alt="">
+			<div class="nav-items">
+				<div class="search">
+					<input type="text" class="search-box" placeholder="Search Brands, Products"></input>
+					<button class="search-btn">Search</button>
+				</div>
+				<a href="./login.html"><span class="material-symbols-outlined">
+					account_circle
+					</span> </a>
+				<a href="#"><span class="material-symbols-outlined">
+					shopping_cart
+					</span> </a>
+			</div>
+		</div>
+		<ul class="links-container">
+			<li class="link-items"><a href="./demo.html" class="link">Home</a></li>
+			<li class="link-items"><a href="./products.html" class="link">Products</a></li>
+			<li class="link-items"><a href="./cart.html" class="link">Shopping Cart</a></li>
+			<li class="link-items"><a href="./checkout.html" class="link">Checkout</a></li>
+			<li class="link-items"><a href="./aboutus.html" class="link">About Us</a></li>
+			<li class="link-items"><a href="./contactus.html" class="link">Contact Us</a></li>
+		</ul>
+    </nav>
+
+    <section class="section-1">
+		<div id="wrap">
+			<div id="columns" class="columns_4">
+				<div class="product-intro">
+				<h1> New <span>Arrivals</span></h1>
+				<p>Our Fresh New Arrivals. Stay Ahead of The Time. #fashionlove</p>
+			</div>
+		  <figure>
+		  <img src="./img/1.jpg" width="300" height="300">
+			<figcaption>Branded Shoes</figcaption>
+			<span class="price">2599 INR</span>
+			<a class="button" href="#">Buy Now</a>
+			</figure>
+			
+			<figure>
+			<img src="./img/2.jpg" width="300" height="300">
+			<figcaption>Branded Shoes</figcaption>
+			<span class="price">2999 INR</span>
+			<a class="button" href="#">Buy Now</a>
+			</figure>
+			
+		  <figure>
+			<img src="./img/shirt1.jpg" width="300" height="300">
+			<figcaption>Branded Shirt</figcaption>
+			<span class="price">3999 INR</span>
+			<a class="button" href="#">Buy Now</a>
+			</figure>
+		  
+			<figure>
+			<img src="./img/shirt.jpg" width="300" height="300">
+			<figcaption>Branded Shirt</figcaption>
+			<span class="price">4599 INR</span>
+			<a class="button" href="#">Buy Now</a>
+			</figure>
+		</section>
+	
+		   <section class="section-2" width="300" height="300">
+			<div id="wrap">
+				<div id="columns" class="columns_4">
+			<div class="product-intro">
+				<h1> Popular <span>Products</span></h1>
+				<p>Our Most Loved & Popular Products. #fashionlove</p>
+			</div>	
+	
+		   <figure>
+			 <img src="./img/shoes.jpeg" width="300" height="300">
+			<figcaption>Branded Shoes</figcaption>
+			<span class="price">3599 INR</span>
+			<a class="button" href="#">Buy Now</a>
+			</figure>
+			
+		   <figure>
+			 <img src="./img/saree.jpg" width="300" height="300">
+			<figcaption>Branded Saree</figcaption>
+			 <span class="price">4999 INR</span>
+			 <a class="button" href="#">Buy Now</a>
+			</figure>
+		  
+			<figure>
+			<img src="./img/mattress.jpg" width="300" height="300">
+			<figcaption>Mattress</figcaption>
+			<span class="price">2299 INR</span>
+			<a class="button" href="#">Buy Now</a>
+			</figure>	
+		  
+		   <figure>
+			<img src="./img/curtains.jpg" width="300" height="300">
+			<figcaption>Curtains</figcaption>
+			 <span class="price">4399 INR</span>
+			 <a class="button" href="#">Buy Now</a>
+			</figure>
+		  
+			<figure>
+			<img src="./img/7.jpg" width="300" height="300">
+			<figcaption>Back-pack</figcaption>
+			  <span class="price">1599 INR</span>
+			  <a class="button" href="#">Buy Now</a>
+			</figure>	
+	
+			<figure>
+				<img src="./img/8.jpg" width="300" height="300">
+				<figcaption>Branded Formal Shoes</figcaption>
+				  <span class="price">1599 INR</span>
+				  <a class="button" href="#">Buy Now</a>
+				</figure>	
+	
+			<figure>
+				<img src="./img/6.jpg" width="300" height="300">
+				<figcaption>Branded Watch</figcaption>
+				   <span class="price">1599 INR</span>
+					<a class="button" href="#">Buy Now</a>
+			</figure>	
+			
+			<figure>
+				<img src="./img/5.jpg" width="300" height="300">
+				<figcaption>Branded Goggles</figcaption>
+				  <span class="price">1599 INR</span>
+				  <a class="button" href="#">Buy Now</a>
+			</figure>	
+		</div>
+	</section>
+
+<div class="product-intro">
+			<h1> Premium Hand <span>Tailored</span></h1>
+			<p>Our Hand Tailored Products Which Are Loved The Most By Our 1© Fans. #fashionlove</p>
+		</div>
+    <section class="section-3">
+	<div class="card">
+		<img src="./img/t1.jpg" alt="Denim Jeans" style="width:100%">
+		<h1>Engineered Tailored Fit Shirt</h1>
+		<p class="price">2999 INR</p>
+		<p>Attention to the minor details by the top tailors in the Country.</p>
+		<p><button>Add to Cart</button></p>
+	  </div>
+	  <div class="card">
+		<img src="./img/t2.jpg" alt="Denim Jeans" style="width:100%">
+		<h1>Engineered Tailored Fit Shirt</h1>
+		<p class="price">2499 INR</p>
+		<p>Attention to the minor details by the top tailors in the Country.</p>
+		<p><button>Add to Cart</button></p>
+	  </div>
+	  <div class="card">
+		<img src="./img/t3.jpg" alt="Denim Jeans" style="width:100%">
+		<h1>Engineered Tailored Fit Shirt</h1>
+		<p class="price">3499 INR</p>
+		<p>Attention to the minor details by the top tailors in the Country.</p>
+		<p><button>Add to Cart</button></p>
+	  </div>
+	  <div class="card">
+		<img src="./img/t4.jpg" alt="Denim Jeans" style="width:100%">
+		<h1>Engineered Tailored Fit Shirt</h1>
+		<p class="price">4499 INR</p>
+		<p>Attention to the minor details by the top tailors in the Country.</p>
+		<p><button>Add to Cart</button></p>
+	  </div>
+    </section> 
+
+    <footer class="footer1">
+		<h2>1© Store India</h2>   
+	   </footer>
+	   <footer class="footer2">
+		   <h2>Connect to us through <span>Social Media</span></h2>
+	   <div class="icon-container">
+		   <div class="icon-item">
+			   <div>
+				   <a href="www.facebook.com" alt="">
+				   <img src="./icon/facebook.png"></a>
+			   </div>
+		   </div>
+		   <div class="icon-item">
+			   <div>
+				   <a href="#" alt="">
+				   <img src="./icon/instagram.png"></a>
+			   </div>
+		   </div>
+		   <div class="icon-item">
+			   <div>
+				   <a href="#" alt="">
+				   <img src="./icon/twitter.png"></a>
+			   </div>
+		   </div>
+		   <div class="icon-item">
+			   <div>
+				   <a href="#" alt="">
+				   <img src="./icon/whatsapp.png"></a>
+			   </div>
+		   </div>
+		   <div class="icon-item">
+			   <div>
+				   <a href="#" alt="">
+				   <img src="./icon/youtube.png"></a>
+			   </div>
+		   </div>
+	   </div>
+	   </footer>
+	   <footer class="footer3">
+			   <div class="footer-links-container">
+				   <div class="footer-link-items">
+					   <h3><b>Products</b></h3>
+					   <a href="#">Sell your Products</a>
+					   <a href="#">Advertise</a>
+					   <a href="#">Pricing</a>
+					   <a href="#">Product Business</a>
+				   </div>
+				   <div class="footer-link-items">
+					   <h3><b>Services</b></h3>
+					   <a href="#">Return</a>
+					   <a href="#">Cash Back</a>
+					   <a href="#">Affiliate Marketing</a>
+					   <a href="#">Others</a>
+				   </div>
+				   <div class="footer-link-items">
+					   <h3><b>Company</b></h3>
+					   <a href="#">Complaint</a>
+					   <a href="#">Careers</a>
+					   <a href="#">Contact Us</a>
+					   <a href="#">Support</a>
+				   </div>
+				   <div class="footer-link-items">
+					   <h3><b>Get Help</b></h3>
+					   <a href="#">Help Center</a>
+					   <a href="#">Privacy Policy</a>
+					   <a href="#">Terms</a>
+					   <a href="./login.html">Login</a>
+				   </div>
+			   </div>
+	   </footer>
+	   <footer class="footer4">
+		   <div class="language-picker">
+			   <select class="left-half">
+				   <option> English</option>
+				   <option> Hindi</option>
+			   </select>
+		   </div>
+			   <div class="right-half">
+				   <h2>All Rights Reserved 2023 1© Store™</h2>
+			   </div>
+	   </footer>
+
+</body>
+</html>
